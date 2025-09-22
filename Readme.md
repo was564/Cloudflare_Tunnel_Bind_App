@@ -1,6 +1,6 @@
 # Cloudflare Tunnel Bind App (UNOFFICIAL)
 
-Cloudflare Tunnel Bind App은 Cloudflare의 cloudflared 터널을 GUI 환경에서 손쉽게 관리할 수 있도록 도와주는 Windows desktop 애플리케이션 입니다.  
+Cloudflare Tunnel Bind App은 Cloudflare Tunnel 연결을 GUI 환경에서 손쉽게 관리할 수 있도록 도와주는 Windows desktop 애플리케이션 입니다.  
 
 사용자는 여러 터널 정보를 등록하고, 시작 / 중단 등 주요 기능을 직관적으로 제어할 수 있습니다.
 
@@ -10,7 +10,7 @@ Cloudflare Tunnel Bind App은 Cloudflare의 cloudflared 터널을 GUI 환경에�
 ### 주요 기능
 - cloudflared 미설치 시 자동 설치 안내 및 진행
 - cloudflared 터널 프로세스의 시작 및 중단 관리
-- 터널 정보(프로토콜, 호스트, 포트 등) 과리
+- 터널 정보(프로토콜, 호스트, 포트 등) 관리
 - 트레이 아이콘을 통한 백그라운드 실행
 - 다국어(한국어/영어) UI 지원
 
