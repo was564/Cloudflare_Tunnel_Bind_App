@@ -15,20 +15,20 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_62D6DD3A42FB4381A3B8CB26612A90FA"
+        "MsmKey" = "8:_5DD1A74336594C6498DE420497EF1D80"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_69AFB0A81BF7403AA74EBBAD166062D0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_7AC2C8234FAA2663DEE2524BF415A7F3"
-        "OwnerKey" = "8:_F41E4FB221664163BBD2726785C68E2E"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F41E4FB221664163BBD2726785C68E2E"
-        "OwnerKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_5DD1A74336594C6498DE420497EF1D80"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -40,7 +40,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F41E4FB221664163BBD2726785C68E2E"
+        "OwnerKey" = "8:_5DD1A74336594C6498DE420497EF1D80"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -68,6 +68,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -92,6 +100,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -122,9 +138,9 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_62D6DD3A42FB4381A3B8CB26612A90FA"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_69AFB0A81BF7403AA74EBBAD166062D0"
             {
-            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\cloud-833378_640.ico"
+            "SourcePath" = "8:..\\cloudflaretunnelclientapp\\cloud-833378_640.ico"
             "TargetName" = "8:cloud-833378_640.ico"
             "Tag" = "8:"
             "Folder" = "8:_244C00BDE1AD4A469B8028F6A565D0BE"
@@ -350,7 +366,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_9589F3F54345456383F96119E8BC89FC"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_BAF4DBF660444865BCC68856D56D9D85"
             {
             "Name" = "8:Cloudflare Tunnel Bind App"
             "Arguments" = "8:"
@@ -358,10 +374,10 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_F41E4FB221664163BBD2726785C68E2E"
+            "Target" = "8:_5DD1A74336594C6498DE420497EF1D80"
             "Folder" = "8:_D2EC773F55AF4563A9C62B6034ED6AEC"
             "WorkingFolder" = "8:_244C00BDE1AD4A469B8028F6A565D0BE"
-            "Icon" = "8:"
+            "Icon" = "8:_69AFB0A81BF7403AA74EBBAD166062D0"
             "Feature" = "8:"
             }
         }
@@ -763,7 +779,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_F41E4FB221664163BBD2726785C68E2E"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_5DD1A74336594C6498DE420497EF1D80"
             {
             "SourcePath" = "8:..\\CloudflareTunnelClientApp\\obj\\Release\\CloudflareTunnelBindApp.exe"
             "TargetName" = "8:"

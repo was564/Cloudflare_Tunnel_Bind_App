@@ -118,6 +118,7 @@ namespace CloudflareTunnelBindApp
                 
                 result = checkPackageProcess.StandardOutput.ReadToEnd();
                 checkPackageProcess.WaitForExit();
+                checkPackageProcess.Close();
             }
 
             int resultCount = result.Count(c => c == '\n');
